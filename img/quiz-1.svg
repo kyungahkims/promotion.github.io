@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+    <defs>
+        <filter id="54x4aly4wa">
+            <feOffset dx="-2" dy="-2"/>
+            <feGaussianBlur stdDeviation="3" result="blur"/>
+            <feFlood flood-opacity=".4" result="color"/>
+            <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+            <feComposite operator="in" in="color"/>
+            <feComposite operator="in" in2="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g data-type="innerShadowGroup">
+        <circle data-name="quiz_1" cx="13" cy="13" r="13" style="fill:#fff"/>
+        <g style="filter:url(#54x4aly4wa)">
+            <circle data-name="quiz_1" cx="13" cy="13" r="13" style="fill:#fff"/>
+        </g>
+        <g data-name="quiz_1" style="stroke:#cbcbcb;fill:none">
+            <circle cx="13" cy="13" r="13" style="stroke:none"/>
+            <circle cx="13" cy="13" r="12.5" style="fill:none"/>
+        </g>
+    </g>
+</svg>
