@@ -10,19 +10,26 @@
 
 <body>
 	<div class="wrap">
+		<button type="button" aria-label="뒤로가기" class="before_btn"></button>
 		<div class="banner"><img src="../img/top-image@3x.png" alt="한컴축구트제이벤트" class="img">
 			<span class="timer">오늘 경기 종료까지<strong id="countdown">23:00:00</strong></span>
 		</div>
 
 		<div class="gorup_1">
 			<div class="quize_info">
-				<h2>퀴즈 안내</h2>
-				<p>5문제 모두 맞추고 100,000P 당첨 기회를 잡아보세요<br>
-					퀴즈 5문제 완료 시 포인트 랜덤 지급!</p>
-				<p>틀려도 응모권 지급!<br>
-					응모권을 많이 모을수록 경품 당첨 확률이 높아집니다!</p>
+				<div class="title_wrap">
+					<h2>퀴즈 안내</h2>
+				</div>
+				<div class="cont1">
+					<p>5문제 모두 맞추고<strong>100,000P 당첨 기회를 잡아보세요</strong></p>
+				</div>
+
+				<p class="cont2">틀려도 괜찮아요 😎<br>
+					5문제를 모두 풀기만 해도 랜덤 포인트와 응모권 지급!<br>
+					<strong>응모권을 많이 모을수록 경품 당첨 확률이 높아집니다</strong></p>
 			</div>
 
+			<!-- 1 -->
 			<div class="quize_wrap">
 				<span class="label">OX 퀴즈</span>
 				<div class="quize">
@@ -47,32 +54,34 @@
 				</div>
 			</div>
 
+			<!-- 2 -->
 			<!-- <div class="quize_wrap">
-				<span class="label">OX 퀴즈</span>
-				<div class="correct_label">정답</div>
-				<span aria-label="O" class="answer answer_o"></span>
-				<div class="result">
-					<p class="result_inner">FIFA 월드컵은 1930년 시작 이후 기본적으로 4년 주기로 개최된다.</p>
-				</div>
-				<button type="button" class="next_btn">다음 문제 풀기</button>
-				<div class="quize_bar">
-					<div class="completion">
-						<span class="correct" role="img" aria-label="정답"></span>
-						<span class="wrong" role="img" aria-label="오답"></span>
-						<span role="img" aria-label="미응답"></span>
-						<span role="img" aria-label="미응답"></span>
-						<span role="img" aria-label="미응답"></span>
+					<span class="label">OX 퀴즈</span>
+					<div class="correct_label">정답</div>
+					<span class="answer answer_o"></span>
+					<div class="result">
+						<p class="result_inner">FIFA 월드컵은 1930년 시작 이후 기본적으로 4년 주기로 개최된다.</p>
 					</div>
-					<div class="completion_title">
-						오늘의 퀴즈 2<span>/5</span>
+					<button type="button" class="next_btn">다음 문제 풀기</button>
+					<div class="quize_bar">
+						<div class="completion">
+							<span class="correct" role="img" aria-label="정답"></span>
+							<span role="img" aria-label="미응답"></span>
+							<span role="img" aria-label="미응답"></span>
+							<span role="img" aria-label="미응답"></span>
+							<span role="img" aria-label="미응답"></span>
+						</div>
+						<div class="completion_title">
+							오늘의 퀴즈 1<span>/5</span>
+						</div>
 					</div>
-				</div>
-			</div> -->
+				</div> -->
 
+			<!-- 3 -->
 			<!-- <div class="quize_wrap">
 				<span class="label">OX 퀴즈</span>
 				<div class="wrong_label">오답</div>
-				<span aria-label="O" class="answer answer_x"></span>
+				<span class="answer answer_x"></span>
 				<div class="result">
 					<p class="result_inner">FIFA 월드컵은 1930년 시작 이후 기본적으로 4년 주기로 개최된다.</p>
 				</div>
@@ -91,6 +100,7 @@
 				</div>
 			</div> -->
 
+			<!-- 4 -->
 			<!-- <div class="quize_wrap">
 				<span class="label">OX 퀴즈</span>
 				<div class="prize_wrap">
@@ -103,16 +113,17 @@
 					<div class="completion">
 						<span class="correct" role="img" aria-label="정답"></span>
 						<span class="wrong" role="img" aria-label="오답"></span>
-						<span role="img" aria-label="미응답"></span>
-						<span role="img" aria-label="미응답"></span>
-						<span role="img" aria-label="미응답"></span>
+						<span class="correct" role="img" aria-label="정답"></span>
+						<span class="correct" role="img" aria-label="정답"></span>
+						<span class="correct" role="img" aria-label="정답"></span>
 					</div>
 					<div class="completion_title">
-						오늘의 퀴즈 2<span>/5</span>
+						오늘의 퀴즈 5<span>/5</span>
 					</div>
 				</div>
 			</div> -->
 
+			<!-- 5 -->
 			<!-- <div class="quize_wrap">
 				<span class="label">OX 퀴즈</span>
 				<div class="prize_wrap prize_wrap2">
@@ -123,17 +134,18 @@
 				<div class="quize_bar">
 					<div class="completion">
 						<span class="correct" role="img" aria-label="정답"></span>
-						<span class="wrong" role="img" aria-label="오답"></span>
-						<span role="img" aria-label="미응답"></span>
-						<span role="img" aria-label="미응답"></span>
-						<span role="img" aria-label="미응답"></span>
+						<span class="correct" role="img" aria-label="정답"></span>
+						<span class="correct" role="img" aria-label="정답"></span>
+						<span class="correct" role="img" aria-label="정답"></span>
+						<span class="correct" role="img" aria-label="정답"></span>
 					</div>
 					<div class="completion_title">
-						오늘의 퀴즈 2<span>/5</span>
+						오늘의 퀴즈 5<span>/5</span>
 					</div>
 				</div>
 			</div> -->
 
+			<!-- 6 -->
 			<!-- <div class="quize_wrap">
 				<span class="label">OX 퀴즈</span>
 				<div class="prize_wrap">
@@ -144,13 +156,13 @@
 				<div class="quize_bar">
 					<div class="completion">
 						<span class="correct" role="img" aria-label="정답"></span>
-						<span class="wrong" role="img" aria-label="오답"></span>
-						<span role="img" aria-label="미응답"></span>
-						<span role="img" aria-label="미응답"></span>
-						<span role="img" aria-label="미응답"></span>
+						<span class="correct" role="img" aria-label="정답"></span>
+						<span class="correct" role="img" aria-label="정답"></span>
+						<span class="correct" role="img" aria-label="정답"></span>
+						<span class="correct" role="img" aria-label="정답"></span>
 					</div>
 					<div class="completion_title">
-						오늘의 퀴즈 2<span>/5</span>
+						오늘의 퀴즈 5<span>/5</span>
 					</div>
 				</div>
 			</div> -->
@@ -176,13 +188,12 @@
 			<div class="box box2">
 				<h2>응모권 당첨 경품</h2>
 				<p>모은 응모권은 이벤트 종료 후 자동으로 추첨에 반영됩니다.<br>
-					"응모권이 많을수록 당첨 확률이 높아집니다."</p>
+					<strong>응모권이 많을수록 당첨 확률이 높아집니다.</strong></p>
 				<ul>
-					<li><span>1등</span><strong>500만원 (1명)</strong></li>
-					<li><span>2등</span><strong>100만원 (3명)</strong></li>
-					<li><span>3등</span><strong>10만원 (20명)</strong></li>
-					<li><span>4등</span><strong>한컴오피스 1년 구독권 (30명)</strong></li>
-					<li><span>5등</span><strong>한컴오피스 할인권 (100명)</strong></li>
+					<li><span>1등</span><strong>순금 5돈 (1명)</strong></li>
+					<li><span>2등</span><strong>네이버페이 포인트 5만원권 (50명)</strong></li>
+					<li><span>3등</span><strong>BBQ 황금올리브치킨 (100명)</strong></li>
+					<li><span>4등</span><strong>스타벅스 아메리카노 Tall (200명)</strong></li>
 				</ul>
 			</div>
 		</div>

@@ -13,7 +13,7 @@ window.addEventListener('orientationchange', setScreen);
 function updateCountdown() {
 	const now = new Date();
 
-	const end = new Date('2026-07-19T24:00:00');
+	const end = new Date('2026-07-19T23:59:59');
 
 	const diff = end - now;
 
